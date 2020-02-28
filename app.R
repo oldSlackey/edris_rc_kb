@@ -36,13 +36,13 @@ ui <- navbarPage(
                     "please let us know.")),
            tags$ul( 
              #Link to PHI intro to R
-             tags$li(tags$a(href="https://github.com/Health-SocialCare-Scotland/R-Resources/blob/master/Intro%20to%20R-NSS.md", 
-                            "Intro to R in the NSS"), 
-                     " - An introductory guide to using R in NSS."),
+             tags$li(tags$a(href="Authorised RCs.pdf", 
+                            "Authorised RCs"), 
+                     " - List of names of RCs authorised to carry out eDRIS work."),
              #Link to PHI style guide
-             tags$li(tags$a(href="https://github.com/Health-SocialCare-Scotland/R-Resources/blob/master/PHI%20R%20style%20guide.md", 
-                            "PHI R style guide"), 
-                     " - Style guide to follow when coding in R."),
+             tags$li(tags$a(href="Data_Copy_SOP.pdf", 
+                            "Data Copy SOP"), 
+                     " -  Guide to follow when for safe data copying"),
              #Link to phsmethods package
              tags$li(tags$a(href="https://github.com/Health-SocialCare-Scotland/phsmethods",
                             "phsmethods R package"),
